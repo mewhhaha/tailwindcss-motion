@@ -1,9 +1,9 @@
 import createPlugin from "tailwindcss/plugin";
-import addKeyframes from "./keyframes";
-import addDefaults from "./defaults";
-import { addBaseAnimations, baseAnimationsTheme } from "./baseAnimations";
-import { addModifiers, modifiersTheme } from "./modifiers";
-import { addPresets } from "./presets";
+import addKeyframes from "./keyframes.js";
+import addDefaults from "./defaults.js";
+import { addBaseAnimations, baseAnimationsTheme } from "./baseAnimations.js";
+import { addModifiers, modifiersTheme } from "./modifiers.js";
+import { addPresets } from "./presets.js";
 
 /** @type {import('tailwindcss/types/config').PluginCreator} */
 const pluginCreator = ({
