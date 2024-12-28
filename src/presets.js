@@ -8,8 +8,8 @@ import {
   scaleLoopAnimation,
   translateInAnimation,
   translateLoopAnimation,
-} from "./baseAnimations";
-import { springPerceptualMultipliers } from "./modifiers";
+} from "./baseAnimations.js";
+import { springPerceptualMultipliers } from "./modifiers.js";
 
 /**
  * @param {import('tailwindcss/types/config').PluginAPI['addComponents']} addComponents
